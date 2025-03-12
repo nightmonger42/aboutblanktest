@@ -9,5 +9,5 @@ cmd = "nginx -g 'daemon off;'"
 
 [nginx]
 root = "/app/static"
-index = "htmlviewer.html"
+index = "test.html"
 
