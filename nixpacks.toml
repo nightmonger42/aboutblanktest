@@ -4,4 +4,4 @@ nixpacksPlan = "nginx"
 
 [nginx]
 root = "/app/static"
-index = "htmlviewer.html"
+index = "test.html"
