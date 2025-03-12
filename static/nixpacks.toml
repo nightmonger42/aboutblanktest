@@ -1,7 +1,0 @@
-[build]
-builder = "nixpacks"
-nixpacksPlan = "nginx"
-
-[nginx]
-root = "/app/static"
-index = "htmlviewer.html"
