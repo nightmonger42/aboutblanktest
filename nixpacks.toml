@@ -1,7 +1,13 @@
 [build]
 builder = "nixpacks"
-nixpacksPlan = "nginx"
+
+[variables]
+PORT = "8080"
+
+[start]
+cmd = "nginx -g 'daemon off;'"
 
 [nginx]
 root = "/app/static"
-index = "test.html"
+index = "htmlviewer.html"
+
